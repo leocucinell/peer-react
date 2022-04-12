@@ -8,7 +8,6 @@ import Signup from './pages/Signup';
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
